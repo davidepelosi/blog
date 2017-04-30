@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: https://jflash1973.github.io/neo-hpstr-jekyll-theme
+url: https://davidepelosi.github.io/blog
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -20,10 +20,6 @@ url: https://jflash1973.github.io/neo-hpstr-jekyll-theme
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
@@ -47,7 +43,7 @@ owner:
   # Twitter nick for use in Twitter cards and follow button.
   twitter: d5pelosi # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: d5pelosi
+  github: davidepelosi
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -56,12 +52,10 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/d5pelosi"
+    url: "https://github.com/davidepelosi"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/davidepelosi"
-  - title: "youtube"
-    url: ""
-
+    url: "https://www.linkedin.com/in/davide-pelosi/"
+  
 # Background image to be tiled on all pages
 background:
 
@@ -72,8 +66,8 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
+timezone:    Europe/Rome
+locale:      it_IT
 future:      true
 highlighter: rouge
 markdown:    kramdown
@@ -101,6 +95,6 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme

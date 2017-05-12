@@ -37,8 +37,8 @@ owner:
   email:          davide.pelosi@dpstudio.eu
   # Twitter nick for use in Twitter cards and follow button.
   twitter: d5pelosi # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  linkedin: davide-pelosi # if no twitter in this config, the twitter follow button will be removed
+  # Linkedin nick for use in Linkedin cards and follow button.
+  linkedin: davide-pelosi # if no linkedin in this config, the linkedin button will be removed
   # GitHub nick for use in follow button in author block.
   github: davidepelosi
 

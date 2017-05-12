@@ -10,6 +10,9 @@
             <img class="logo" style="width: 93px; height: 57px;" src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}">
           {% endif %}
           <a href="{{site.url}}/" class="title"> {{ site.title }}</a>
+	  {% if site.owner.linkedin %}
+  	    <a href="https://www.linkedin.com/in/{{site.owner.linkedin}}/" class="btn btn-info button-linkedin" data-show-count="false" data-size="large"><i class="fa fa-linkedin"></i> <span> | Follow @{{site.owner.linkedin}}</span></a>
+	  {% endif %}
         </a>
       </li>
       {% for menu in site.menu reversed %}
@@ -100,8 +103,5 @@
 </nav>
 
 {% if site.owner.twitter %}
-  <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
-{% endif %}
-{% if site.owner.linkedin %}
   <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
 {% endif %}

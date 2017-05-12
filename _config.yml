@@ -17,9 +17,9 @@ url: https://davidepelosi.github.io/blog
 #   To list post categories. use type: 'categories'
 #   To create sub categories. add a submenu item
 # See the example
-menu:
-  - title: 'Home'
-    url: '/'
+#menu:
+#  - title: 'Home'
+#    url: '/'
 #  - title: 'Posts'
 #    url: '/'
 #  - title: 'Tags'

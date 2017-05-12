@@ -9,14 +9,10 @@
           {% if site.logo %}
             <img class="logo" style="width: 93px; height: 57px;" src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}">
           {% endif %}
-          <a href="{{site.url}}/" class="title"> {{ site.title }}</a>
+          <a href="{{site.owner.linkedin}}/" class="title"> {{ site.title }}</a>
 	</a>
       </li>
-      <li class="header-item-title">
-	{% if site.owner.linkedin %}
-	  <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span></span></a>
-	{% endif %}
-      </li>
+      
       {% for menu in site.menu reversed %}
         {% assign class = nil %}
         {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}

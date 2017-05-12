@@ -18,13 +18,15 @@ url: https://davidepelosi.github.io/blog
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
+#  - title: 'Home'
+#    url: '/'
+#  - title: 'Posts'
+#    url: '/'
+#  - title: 'Tags'
+#    url: '/tags'
+#  - title: 'Categories'
+#    url: '/categories'
+#    type: 'categories'
 
 # Owner/author information
 owner:

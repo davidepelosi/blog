@@ -14,6 +14,15 @@
 
 <div id="main" role="main">
   {{ content }}
+  
+  <script type="text/javascript" src="http://widgets.paper.li/javascripts/sr.iframe.min.js"></script>
+  <script type="text/javascript">
+    Paperli.PaperFrame.Show({
+      domain: 'paper.li',
+      pid: 'e8039c61-e94a-4149-b922-e1fc8369ba2f'
+    });
+  </script>
+
 </div><!-- /#main -->
 
 {% include scripts.html %}

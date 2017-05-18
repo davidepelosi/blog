@@ -17,9 +17,11 @@ url: https://davidepelosi.github.io/blog
 #   To list post categories. use type: 'categories'
 #   To create sub categories. add a submenu item
 # See the example
-#menu:
-#  - title: 'Home'
-#    url: '/'
+menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'Profile'
+    url: '/profile'
 #  - title: 'Posts'
 #    url: '/'
 #  - title: 'Tags'
@@ -52,7 +54,7 @@ social:
     url: "https://github.com/davidepelosi"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/davide-pelosi/"
-  
+
 # Background image to be tiled on all pages
 background:
 

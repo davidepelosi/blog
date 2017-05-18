@@ -20,8 +20,8 @@ url: https://davidepelosi.github.io/blog
 menu:
   - title: 'Home'
     url: '/'
-#  - title: 'Profile'
-#    url: '/profile'
+  - title: 'Profile'
+    url: '/profile'
 #  - title: 'Posts'
 #    url: '/'
 #  - title: 'Tags'

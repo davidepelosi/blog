@@ -10,7 +10,7 @@ comments: false
     <h3>{{site.owner.name}}</h3>
     <div class="author-container">
       <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" />
-      <div class="author-bio" style="text-align:justify;">{{site.owner.bio}}</div>
+      <div class="author-bio" style="text-align:justify;">{{site.owner.bio | markdownify}}</div>
     </div>
     <div class="author-share">
       <ul class="list-inline social-buttons">
